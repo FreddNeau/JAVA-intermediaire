@@ -1,6 +1,6 @@
 package com.teachersdunet.javaintermediaire;
 
-public class Cercle extends Forme {
+public class Cercle implements Forme {
 
 	protected int rayon = 4;
 	

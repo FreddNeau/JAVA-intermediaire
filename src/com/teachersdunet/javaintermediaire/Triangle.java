@@ -1,6 +1,6 @@
 package com.teachersdunet.javaintermediaire;
 
-public class Triangle extends Forme {
+public class Triangle implements Forme {
 	protected int base = 4;
 	protected int hauteur=2;
 	
@@ -9,9 +9,6 @@ public class Triangle extends Forme {
 		return (base * hauteur * 0.5);
 	}
 	
-	public int toto() {
-		return 1;
-	}
 	
 	
 }

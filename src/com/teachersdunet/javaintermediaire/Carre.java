@@ -1,6 +1,6 @@
 package com.teachersdunet.javaintermediaire;
 
-public class Carre extends Forme {
+public class Carre implements Forme {
 
 	protected int cote;
 	protected String nom;
