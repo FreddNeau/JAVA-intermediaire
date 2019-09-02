@@ -4,7 +4,8 @@ public class TestDriver {
 
 	public static void main(String[] args) {
 		A a = new A(34,"momo");
-		a.new B();
+		A.B b = a.new B();
+		A.C c = a.new C();
 	}
 
 }
